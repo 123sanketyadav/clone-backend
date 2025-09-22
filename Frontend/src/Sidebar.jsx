@@ -99,7 +99,7 @@ function Sidebar() {
             <i 
               className="fa-solid fa-trash" 
               onClick={(e) => {
-                e.stopPropagation(); // ✅ prevent triggering changeThread
+                e.stopPropagation(); //  prevent triggering changeThread
                 deleteThread(thread.threadId);
               }}
             ></i>
