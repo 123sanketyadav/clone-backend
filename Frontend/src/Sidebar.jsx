@@ -112,12 +112,12 @@ function Sidebar() {
   <p>
     {" "}
     <a 
-      href="https://www.linkedin.com/in/sanket-yadav10/" 
+      href="https://www.linkedin.com/in/priya-kumari2006/" 
       target="_blank" 
       rel="noopener noreferrer"
-      style={{ color: "#0A66C2", textDecoration: "none", fontWeight: "bold" }}
+      style={{ color: "#0A66C2", textDecoration: "none", fontWeight: "bold", fontSize: "16px"  }}
     >
-       By Sankit Yadav 😎 🤘
+       By Priya Kumari 😎 🤘
     </a>
   </p>
 </div>
