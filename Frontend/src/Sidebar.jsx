@@ -42,7 +42,7 @@ function Sidebar() {
     setCurrThreadId(newThreadId);
 
     try {
-      const response = await fetch(`https://clone-backend-ybjt.onrender.com//api/thread/${newThreadId}`);
+      const response = await fetch(`https://clone-backend-ybjt.onrender.com/api/thread/${newThreadId}`);
       const res = await response.json();
       console.log("single thread data", res);
       setPrevChats(res); // ✅ update context
@@ -55,7 +55,7 @@ function Sidebar() {
 
   const deleteThread = async (threadId) => {
     try {
-      const response = await fetch(`https://clone-backend-ybjt.onrender.com//api/thread/${threadId}`, {
+      const response = await fetch(`https://clone-backend-ybjt.onrender.com/api/thread/${threadId}`, {
         method: "DELETE",
       });
       const res = await response.json();
