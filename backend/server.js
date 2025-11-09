@@ -9,12 +9,16 @@ const app = express();
 const PORT =process.env.PORT || 8080;
 
 // ✅ Middlewareuu
-app.use(cors({
-  origin: "http://localhost:5173", 
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
-}));
-app.use(express.json());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",               
+      "https://clone-frontend-xyz.onrender.com" 
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
+  })
+);app.use(express.json());
 
 // ✅ Routes
 app.use("/api", chatRoutes);
