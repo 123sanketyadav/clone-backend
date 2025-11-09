@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",               
-      "https://clone-frontend-xyz.onrender.com" 
+      "https://clone-backend-15.onrender.com" 
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
