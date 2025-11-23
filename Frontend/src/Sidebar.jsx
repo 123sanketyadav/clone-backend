@@ -112,7 +112,7 @@ function Sidebar() {
   <p>
     {" "}
     <a 
-      href="https://www.linkedin.com/in/sanket-yadav10/" 
+      
       target="_blank" 
       rel="noopener noreferrer"
       style={{ color: "#0A66C2", textDecoration: "none", fontWeight: "bold", fontSize: "16px"  }}
