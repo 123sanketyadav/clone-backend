@@ -117,7 +117,7 @@ function Sidebar() {
       rel="noopener noreferrer"
       style={{ color: "#0A66C2", textDecoration: "none", fontWeight: "bold", fontSize: "16px"  }}
     >
-       By Sankit yadav 😎 🤘
+       �
     </a>
   </p>
 </div>
